@@ -14,7 +14,7 @@ client.user.setGame(`_Royal force AutoRole`);
 
 
 
-let ar = JSON.parse(fs.readFileSync(`./AutoRole.json`, `utf8`))
+let ar = JSON.parse(fs.readFileSync(`./league/AutoRole.json`, `utf8`))
 
 
 client.on('guildMemberAdd', member => {
