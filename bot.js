@@ -13,7 +13,7 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd', (member) => {
-member.addRole(member.guild.roles.find('name',Jo));
+member.addRole(member.guild.roles.find('name',JO));
 });
  const devs = ['475070652727033858' , '' , ''];
 client.on('message', message => {
