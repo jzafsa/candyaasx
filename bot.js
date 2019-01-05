@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const fs = require("fs");
 const prefix = "#";
 const adminprefix = "#";
-let ar = JSON.parse(fs.readFileSync(`AutoRole.json`, `utf8`))
+let ar = JSON.parse(fs.readFileSync(`/league/AutoRole.json`, `utf8`))
 client.on('message', message => {
   var sender = message.author
  
